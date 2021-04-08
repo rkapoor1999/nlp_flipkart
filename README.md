@@ -7,7 +7,11 @@ The dataset used here is from the ecommerce giant Flipkart, the link to which is
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
 ### Prerequisites
-[![Generic badge](https://img.shields.io/badge/pandas-python-red.svg)](https://shields.io/) [![Generic badge](https://img.shields.io/badge/csv-fasttext-<>.svg)](https://shields.io/) [![Generic badge](https://img.shields.io/badge/gensim-blue.svg)](https://shields.io/)
+[![Generic badge](https://img.shields.io/badge/python-blue.svg)](https://www.python.org/)
+[![Generic badge](https://img.shields.io/badge/pandas-red.svg)](https://pandas.pydata.org/)
+[![Generic badge](https://img.shields.io/badge/csv-green.svg)](https://docs.python.org/3/library/csv.html)
+[![Generic badge](https://img.shields.io/badge/fasttext-purple.svg)](https://fasttext.cc/)
+[![Generic badge](https://img.shields.io/badge/gensim-yellow.svg)](https://pypi.org/project/gensim/)
 ### Installing
 Install python from this link according to your system: 
 https://www.python.org/downloads/  
