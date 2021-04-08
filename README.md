@@ -17,16 +17,13 @@ Install python from this link according to your system:
 https://www.python.org/downloads/  
 Install the above mentioned libraries using pip
 ```
-pip install pandas
-```
-```
-pip install python-csv
-```
-```
-pip install fasttext
-```
-```
-pip install gensim
+pip3 install pandas
+
+pip3 install python-csv
+
+pip3 install fasttext
+
+pip3 install gensim
 ```
 ## The model
 ### Building
