@@ -25,18 +25,21 @@ pip3 install pandas python-csv fasttext gensim scikit-learn nltk
 ```
 ## The models
 To build the model, open the desired notebook and run all the cells. Each fragment of the code has an explanation along with it.
-### 1)Fasttext
+### 1) Fasttext
 This is a text classification library developed by facebook used to particularly label texts.  
 The model yields an accuracy of 78 percent in 100 epochs given the size of the dataset.
-### 2)Fasttext_!stopwords
+### 2) Fasttext_!stopwords
 The difference between this and the previous model is that for this model the data has first quantized followed by the removal of stopwords such as "the", "of", "an" etc to minimise clutter in the dataset.  
 This change pumped up the model accuracy to 80.08 percent.
-### 3)Naive Bayes
+### 3) Naive Bayes
 This model uses the Bayes theorum at it's core to classify the descriptions. Here also stopword removal is done followed by the creation of a vocabulary to map the description text to be fed to the classification model.  
 This model yields an accuracy of 74.32 percent.
 ### 4) Logistic Regression
 Logistic regression model seems to be the one of the most basic algorithms used in machine learning. Here I haven't fed the model with data having it's stopword removed. 
 This model yields the best accuracy amongst the rest. It yields an accuracy of 96.14 percent.
+
+## Comaprison Graph
+<img src="./model_comparison.png">
 
 ### What other approach I could have used?
 One approach that I think could work is if we are not bound to use the description as the main feature, and instead we focus on the product image. Using ImageGenerator, we could train our network to classify product based on the images. This wouldn't be very cheap on the storage or time but yes it could yield a good accuracy I beleive.
