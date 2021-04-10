@@ -1,6 +1,6 @@
 # nlp_flipkart
-ML model made to predict the product class based on it's text description.  
-This repository contains a ML Model that is used to classify products under a primary category using it's description.
+ML models made to predict the product class based on it's text description.  
+This repository contains 4 ML Models that are used to classify products under a primary category using it's description.
 The dataset used here is from the ecommerce giant Flipkart, the link to which is: https://docs.google.com/spreadsheets/d/1pLv0fNE4WHokpJHUIs-FTVnmI9STgog05e658qEON0I/edit?usp=sharing
 
 ## Getting started
