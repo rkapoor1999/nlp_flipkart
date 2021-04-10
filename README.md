@@ -26,8 +26,8 @@ pip3 install pandas python-csv fasttext gensim scikit-learn nltk
 ## The models
 To build the model, open the desired notebook and run all the cells. Each fragment of the code has an explanation along with it.
 ### 1) Fasttext
-This is a text classification library developed by facebook used to particularly label texts.  
-The model yields an accuracy of 78 percent in 100 epochs given the size of the dataset.
+This is a text classification library developed by facebook used to particularly label texts. Download the dataset from the link above and place it in /fasttext/ The dataset was larger than 25mb, hence could't upload.
+The model yields an accuracy of 78.31 percent in 100 epochs given the size of the dataset.
 ### 2) Fasttext_!stopwords
 The difference between this and the previous model is that for this model the data has first quantized followed by the removal of stopwords such as "the", "of", "an" etc to minimise clutter in the dataset.  
 This change pumped up the model accuracy to 80.08 percent.
